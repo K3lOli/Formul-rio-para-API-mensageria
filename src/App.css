@@ -1,0 +1,62 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container form {
+  padding: 32px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: var(--border-radius-default);
+  height: 300px;
+}
+
+.container form .name-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.container .products-datails {
+  padding: 24px;
+  background: linear-gradient(90deg, rgba(153,151,185,1) 0%, rgba(210,247,255,1) 100%, rgba(203,203,229,1) 100%);
+  border-radius: var(--border-radius-default);
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container .products-datails p {
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: start;
+  width: 300px;
+  max-height: 200px;
+}
+
+.container .products-datails span {
+  font-weight: 700;
+  display: block;
+  font-size: 32px;
+  text-align: start;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.container .products-datails h1 {
+  width: 100%;
+  font-size: 32px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: start;
+}
